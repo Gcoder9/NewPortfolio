@@ -2,7 +2,7 @@ import "./HeroImgstlye.css"
 import React from "react"
 
 
-import img from '../assets/setup.jpg'
+import img from '../assets/code.jpg'
 import { Link } from "react-router-dom"
 
 function HeroImg() {

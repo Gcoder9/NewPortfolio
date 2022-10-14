@@ -1,11 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
+import HeroImg2 from '../components/HeroImg2';
+import Form from '../components/Form';
 function Contact() {
   return (
     <div>
-      <Navbar/>
-      <Footer/>
+      <Navbar/> 
+       <HeroImg2 heading="Contact." text="Let's Talk!"/>
+       <Form/>
+       <Footer/>
     </div>
   )
 }
